@@ -1,0 +1,28 @@
+@media (min-width: 415px) and (max-width: 1150px) {
+  .all-projects {
+    padding: 0;
+  }
+
+  .projects__filters {
+    justify-content: center;
+    flex-wrap: wrap;
+    width: auto;
+    max-width: 568px;
+  }
+
+  .projects__filters__item {
+    margin: 0 20px;
+  }
+
+  .navigation__button-left {
+    margin-right: 68px;
+  }
+
+  .navigation__page__item {
+    margin: 0 10px;
+  }
+
+  .navigation__button-right {
+    margin-left: 68px;
+  }
+}

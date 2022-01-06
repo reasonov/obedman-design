@@ -1,0 +1,148 @@
+@media (min-width: 415px) and (max-width: 1150px) {
+  .container {
+    max-width: 1070px;
+    padding: 0 40px;
+  }
+
+  .header__content {
+    justify-content: center;
+  }
+
+  .header__content__wrapper {
+    text-align: center;
+  }
+
+  .header__caption--bold {
+    width: auto;
+  }
+
+  .header__content__wrapper::before {
+    display: none;
+  }
+
+  .about-us {
+    justify-content: center;
+    padding-top: 100px;
+    text-align: center;
+  }
+
+  .about-us__text-wrapper {
+    padding-bottom: 120px;
+  }
+
+  .about-us__caption::after {
+    left: 50%;
+
+    transform: translateX(-50%);
+  }
+
+  .about-us__text {
+    padding: 90px 30px 90px 30px;
+    background-color: #C4C4C4;
+  }
+
+  .image1 {
+    display: none;
+  }
+
+  .about-us__button {
+    position: static;
+    margin-top: 30px;
+  }
+
+  .projects {
+    padding-bottom: 100px;
+  }
+
+  .project__slider__button {
+    top: 465px;
+  }
+
+  .project__slider__button--left {
+    display: block;
+  }
+
+  .project__slider__button--right {
+    display: block;
+  }
+
+  .achievements__caption {
+    display: none;
+  }
+
+  .achievements__text {
+    display: none;
+  }
+
+  .achievements__list {
+    flex-direction: column;
+  }
+
+  .achievements__item__stats {
+    width: auto;
+  }
+
+  .work-stages {
+    padding-top: 100px;
+    padding-bottom: 135px;
+  }
+
+  .work-stages__list {
+    min-width: 244px;
+  }
+
+  .work-stages__list__caption {
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+
+  .work-stages__item {
+    font-size: 14px;
+    line-height: 31px;
+  }
+
+  .work-stages__disign-wrapper {
+    margin-bottom: 30px;
+  }
+
+  .work-stages__building-wrapper {
+    margin-left: auto;
+    margin-bottom: 30px;
+  }
+
+  .contacts {
+    display: block;
+    padding-top: 90px;
+    padding-bottom: 100px;
+  }
+
+  .our-contacts {
+    display: none;
+  }
+
+  .contacts__request {
+    max-width: 454px;
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .request__caption {
+    font-size: 20px;
+  }
+
+  .request__form {
+    margin-top: 35px;
+  }
+
+  .request__input {
+    width: 100%;
+    max-width: 327px;
+  }
+
+  .request__submit {
+    width: 246px;
+    margin: 0 auto;
+  }
+
+
+}

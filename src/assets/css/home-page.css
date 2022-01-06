@@ -1,0 +1,492 @@
+.header__content {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  height: 100vh;
+  margin: 0 auto;
+
+  text-transform: uppercase;
+  color: #fff;
+
+  background-image: url(../images/header-PC.png);
+  background-size: cover;
+}
+
+.header__content__wrapper {
+  max-width: 1024px;
+  padding: 0 60px;
+  padding-top: 100px;
+}
+
+.header__content__wrapper::before {
+  content: "";
+  position: absolute;
+  top: 175px;
+
+  width: 195px;
+  height: 4px;
+
+  background-color: #FFC500;
+}
+
+.header__caption {
+  font-family: "Cormorant SC";
+}
+
+.header__caption--light {
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 100px;
+}
+
+.header__caption--bold {
+  width: 295px;
+
+  font-size: 55px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  line-height: 60px;
+}
+
+.header__button__projects {
+  width: 334px;
+  height: 70px;
+  margin-top: 90px;
+
+  box-sizing: border-box;
+  border: 3px solid #FFC500;
+
+  font-family: "Steppe";
+  font-size: 21px;
+  text-transform: uppercase;
+  color: #fff;
+
+  background: rgba(0, 0, 0, 0.24);
+}
+
+.about-us {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 1024px;
+  padding: 0 60px;
+  padding-top: 150px;
+  margin: 0 auto;
+}
+
+.about-us__text-wrapper {
+  position: relative;
+  max-width: 400px;
+}
+
+.section__caption {
+  font-family: "Cormorant SC";
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.about-us__caption {
+  margin-bottom: 100px;
+}
+
+.about-us__caption::after {
+  content: "";
+  position: absolute;
+  top: 90px;
+  left: 0;
+
+  width: 260px;
+  height: 4px;
+
+  background-color: #FFC500;
+}
+
+.about-us__text {
+  font-family: "Steppe";
+  font-size: 21px;
+  line-height: 35px;
+}
+
+.about-us__button {
+  position: absolute;
+  bottom: 13px;
+
+  width: 334px;
+  height: 71px;
+
+  box-sizing: border-box;
+  border: 3px solid #FFC500;
+  box-shadow: 13px 13px #FFC500;
+
+  font-family: "Steppe";
+  font-size: 21px;
+  text-transform: uppercase;
+}
+
+.image1 {
+  width: 560px;
+  height: 540px;
+  background-color: #C4C4C4;
+}
+
+.projects {
+  position: relative;
+
+  max-width: 1024px;
+  padding: 160px 60px 125px 60px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.projects__caption {
+  line-height: 65px;
+}
+
+.projects__text{
+  font-family: "Cormorant SC";
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #898989;
+}
+
+.projects__slider {
+
+  max-width: 1024px;
+  margin-top: 66px;
+
+  text-align: left;
+}
+
+.projects__slider__wrapper {
+  position: relative;
+  height: 510px;
+  overflow: hidden;
+}
+
+.projects__slider__list {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  transition: 1s all;
+}
+
+.projects__slider__item {
+  position: relative;
+
+  width: 320px;
+  height: 430px;
+
+  padding: 40px;
+  padding-bottom: 25px;
+  margin-right: 32px;
+
+  box-sizing: border-box;
+
+  background-color: #797979;
+}
+
+.projects__slider__item--last {
+  margin: 0;
+}
+
+.slider-item--active {
+  background-color: #454545;
+}
+
+.projects__slider__item__caption {
+  position: absolute;
+  bottom: 25px;
+
+  transition: 1s all;
+
+  font-family: "Steppe";
+  font-size: 20px;
+  line-height: 26px;
+  color: #fff;
+}
+
+.caption--active {
+  bottom: 350px;
+}
+
+.projects__slider__item__text {
+  max-width: 180px;
+  margin-top: 130px;
+
+  font-family: "Bressay Display Trial";
+  font-size: 16px;
+  line-height: 21px;
+  color: #fff;
+}
+
+.projects__slider__item__button {
+  position: absolute;
+  right: 40px;
+  bottom: 25px;
+
+  font-family: "Bressay Display Trial";
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.project__slider__button {
+  position: absolute;
+  top: 530px;
+}
+
+.project__slider__button--left {
+  left: 5px;
+}
+
+.project__slider__button--right {
+  right: 5px;
+}
+
+.projects__ecplipse__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 50px;
+  margin: 0 auto;
+  margin-top: 500px;
+}
+
+.project__slider__eclipse {
+  width: 10px;
+  height: 10px;
+
+  border-radius: 50%;
+  background-color: #C4C4C4;
+}
+
+.eclipse--active {
+  width: 6px;
+  height: 6px;
+
+  background-color: #FFC500;
+}
+
+.project__button {
+  width: 334px;
+  height: 71px;
+  margin-top: 100px;
+
+  box-sizing: border-box;
+  border: 3px solid #FFC500;
+  box-shadow: 13px 13px #FFC500;
+
+  font-size: 21px;
+  font-weight: 800;
+}
+
+.our-achievements {
+  background-color: #2B2B2B;
+}
+
+.our-achievements__wrapper {
+  max-width: 814px;
+  padding: 0 60px;
+  padding-top: 30px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.achievements__caption {
+  color: #FFC500;
+}
+
+/* повторяющийся рофл */
+.achievements__text {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #898989;
+}
+
+.achievements__list {
+  display: flex;
+  justify-content: space-between;
+
+  padding-bottom: 30px;
+}
+
+.achievements__item {
+  text-transform: uppercase;
+}
+
+.achievements__item__stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 200px;
+  height: 180px;
+
+  font-size: 50px;
+  font-weight: 700;
+  color: #898989;
+}
+
+.achievements__item__description {
+  font-family: "Steppe";
+  font-size: 13px;
+  font-weight: 700;
+  color: #898989;
+}
+
+.work-stages {
+  max-width: 1440px;
+  padding-top: 100px;
+  padding-bottom: 135px;
+  margin: 0 auto;
+
+  background-image: url(../images/work-stages-bg.png);
+}
+
+.work-stages__wrapper {
+  max-width: 1024px;
+  padding: 0 60px;
+  margin: 0 auto;
+}
+
+.work-stages__caption {
+  position: relative;
+  max-width: 620px;
+}
+
+.work-stages__caption::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+
+  width: 296px;
+  height: 4px;
+
+  background-color: #FFC500;
+}
+
+.work-stages__lists {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  margin-top: 100px;
+}
+
+.work-stages__list {
+  min-width: 244px;
+}
+
+.work-stages__list__caption {
+  margin-bottom: 20px;
+
+  font-family: "Steppe";
+  font-size: 28px;
+}
+
+.work-stages__item {
+  font-family: "Steppe";
+  font-size: 14px;
+  line-height: 31px;
+}
+
+.work-stages__building-wrapper {
+  margin-bottom: 30px;
+  text-align: right;
+}
+
+.work-stages__disign-wrapper {
+  margin-bottom: 30px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 1024px;
+  padding-top: 100px;
+  padding-bottom: 190px;
+  margin: 0 auto;
+}
+
+.contacts__table {
+  display: grid;
+  grid-template-columns: 210px 290px;
+  grid-column-gap: 25px;
+  grid-template-rows: 27px 27px 27px;
+  grid-row-gap: 30px;
+  margin-top: 160px;
+
+  font-size: 20px;
+}
+
+.contacts__item__bold {
+  font-weight: 700;
+}
+
+/* Padding должен быть 60px */
+.contacts__request {
+  width: 454px;
+  padding: 44px;
+
+  box-sizing: border-box;
+  border: 3px solid #FFC500;
+  box-shadow: 25px 25px #FFC500;
+
+  text-align: center;
+  background-color: #fff;
+}
+
+.request__caption {
+  font-family: "Steppe";
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 31px;
+}
+
+.request__form {
+  margin-top: 85px;
+}
+
+.request__input {
+  width: 327px;
+  height: 57px;
+  padding-left: 30px;
+  margin-bottom: 30px;
+
+  box-sizing: border-box;
+
+  font-family: "Steppe";
+  font-size: 17px;
+
+  background-color: #FFC500;
+}
+
+.request__submit {
+  margin-top: 17px;
+}
+
+input::-moz-placeholder {
+  color: #000;
+}
+
+input::-webkit-input-placeholder {
+   color: #000;
+ }
+
+ .request__submit {
+   padding: 0;
+
+   font-weight: 700;
+ }

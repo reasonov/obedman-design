@@ -1,0 +1,32 @@
+@media (max-width: 414px) {
+  .projects-page__slider {
+    max-width: 414px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .projects-page__slider__item {
+    height: 500px;
+  }
+
+  .all-projects {
+    max-width: 414px;
+    padding: 0 15px;
+  }
+
+  .projects__filters {
+    width: 100%;
+  }
+
+  .projects__filters__item {
+    font-size: 11px;
+  }
+
+  .all-projects__list {
+    padding: 0 25px;
+  }
+
+  .navigation__page__item {
+    margin: 0 10px;
+  }
+}

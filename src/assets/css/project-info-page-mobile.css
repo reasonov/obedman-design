@@ -1,0 +1,56 @@
+@media (max-width: 414px) {
+  .project-info__main {
+    max-width: 414px;
+    padding: 0;
+  }
+
+  .project-info__concept {
+    padding: 0 20px;
+  }
+
+  .concept__info {
+    text-align: center;
+  }
+
+  .concept__image {
+    display: none;
+  }
+
+  .concept__caption {
+    font-size: 30px;
+  }
+
+  .concept__caption::after {
+    left: 47px;
+
+    width: 178px;
+  }
+
+  .layout__caption {
+    font-size: 30px;
+  }
+
+  .materials__caption {
+    font-size: 30px;
+  }
+
+  .materials__caption::after {
+    width: 178px;
+  }
+
+  .materials__list {
+    position: absolute;
+    justify-content: center;
+    transition: 1s all;
+  }
+
+  .project-info__request {
+    width: 297px;
+    height: 63px;
+    box-shadow: 8px 8px #ffc500;
+
+    font-size: 18px;
+  }
+
+
+}

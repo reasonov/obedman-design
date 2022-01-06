@@ -1,0 +1,51 @@
+@media (min-width: 0px) and (max-width: 1150px) {
+  .project-info__concept {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .concept__info {
+    margin-bottom: 30px;
+  }
+
+  .project-info__materials {
+    position: relative;
+  }
+
+  .materials__caption::after {
+    left: -5px;
+  }
+
+  .materials__slider {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    height: 515px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .materials__list {
+    position: absolute;
+    justify-content: center;
+    transition: 1s all;
+  }
+
+  .materials__item {
+    margin: 0 15px;
+  }
+
+  .project__toggler-wrapper {
+    display: flex;
+    justify-content: center;
+
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .project-info__button {
+    margin: 0 30px;
+  }
+}

@@ -1,0 +1,270 @@
+@media (max-width: 414px) {
+  .container {
+    max-width: 414px;
+    padding: 0 40px;
+  }
+
+  .header__content {
+    min-height: 717px;
+    max-width: 414px;
+
+    background-size: cover;
+    background-position: center;
+  }
+
+  .header__content__wrapper {
+    padding: 0px;
+    text-align: center;
+  }
+
+  .header__content__wrapper::before {
+    display: none;
+  }
+
+  .header__caption--light {
+    font-size: 35px;
+    line-height: 82px;
+  }
+
+  .header__caption--bold {
+    width: auto;
+    font-size: 54px;
+    line-height: 70px;
+  }
+
+  .about-us {
+    display: block;
+    padding-top: 90px;
+  }
+
+  .about-us__caption {
+    position: relative;
+    margin-bottom: 50px;
+    font-size: 30px;
+  }
+
+  .about-us__caption::after {
+    top: 60px;
+
+    width: 217px;
+
+    background-color: #FFC500;
+  }
+
+  .about-us__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    min-height: 320px;
+    padding: 62px 25px 62px 25px;
+    box-sizing: border-box;
+
+    font-size: 14px;
+    text-align: center;
+    background-color: #C4C4C4;
+  }
+
+  .about-us__button {
+    position: static;
+    display: block;
+
+    width: 195px;
+    height: 42px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    box-shadow: 8px 8px #ffc500;
+    font-size: 12px;
+  }
+
+  .image1 {
+    display: none;
+  }
+
+  .projects {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .projects__slider {
+    max-width: 414px;
+    height: 340px;
+  }
+
+  .scrollActive {
+    transition: none;
+  }
+
+
+  .project__slider__button {
+    display: none;
+  }
+
+  .projects__caption {
+    font-size: 30px;
+  }
+
+  .projects__text {
+    font-size: 10px;
+  }
+
+  .projects__slider__item {
+    width: 200px;
+    height: 273px;
+  }
+
+  .projects__slider__item__caption {
+    font-size: 12px;
+  }
+
+  .projects__slider__item__text {
+    font-size: 12px;
+  }
+
+  .project__slider__button--left {
+    display: block;
+  }
+
+  .project__slider__button--right {
+    display: block;
+  }
+
+  .projects__ecplipse__list {
+    margin-top: 330px;
+  }
+
+  .project__slider__eclipse {
+    width: 7px;
+    height: 7px;
+  }
+
+  .eclipse--active {
+    width: 4px;
+    height: 4px;
+  }
+
+  .project__button {
+    width: 196px;
+    height: 42px;
+    margin-top: 35px;
+    box-shadow: 8px 8px #ffc500;
+
+    font-size: 12px;
+  }
+
+  .our-achievements__wrapper {
+    max-width: 414px;
+    padding: 40px;
+  }
+
+  .achievements__list {
+    padding-bottom: 0;
+  }
+
+  .achievements__caption {
+    display: none;
+  }
+
+  .achievements__text {
+    display: none;
+  }
+
+  .achievements__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .work-stages {
+    padding-top: 90px;
+    padding-bottom: 50px;
+  }
+
+  .work-stages__wrapper {
+    max-width: 414px;
+    padding: 0 40px;
+  }
+
+  .work-stages__caption {
+    width: auto;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .work-stages__caption::after {
+    left: 10px;
+    width: 220px;
+  }
+
+  .work-stages__lists {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin-top: 55px;
+  }
+
+  .work-stages__list {
+    min-width: 244px;
+  }
+
+  .work-stages__list__caption {
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+
+  .work-stages__item {
+    font-size: 14px;
+    line-height: 31px;
+  }
+
+  .work-stages__building-wrapper {
+    margin-bottom: 30px;
+    text-align: right;
+  }
+
+  .work-stages__disign-wrapper {
+    margin-bottom: 30px;
+  }
+
+  .contacts {
+    justify-content: center;
+    padding-bottom: 90px;
+    padding-top: 90px;
+  }
+
+  .our-contacts {
+    display: none;
+  }
+
+  .contacts__request {
+    width: 300px;
+    height: auto;
+    padding: 30px;
+  }
+
+  .request__form {
+    margin-top: 50px;
+  }
+
+  .request__caption {
+    font-size: 19px;
+    line-height: 26px;
+  }
+
+  .request__input {
+    width: 215px;
+    height: 40px;
+    margin-bottom: 20px;
+  }
+
+  .request__comment {
+    height: 84px;
+  }
+
+  .request__submit {
+    margin: 0;
+  }
+}

@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  outline: none;
+  background-repeat: no-repeat;
+  font-family: 'Trajan Pro 3', Arial, 'sans-serif';
+  font-weight: normal;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+.header__main {
+  position: absolute;
+  z-index: 5;
+
+  width: 100%;
+
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  max-width: 1450px;
+  height: 90px;
+  padding: 0 100px;
+  margin: 0 auto;
+
+  box-sizing: border-box;
+}
+
+.header__open-menu {
+  display: none;
+}
+
+.navigation__phone {
+  display: none;
+}
+
+.image__phone {
+  display: none;
+}
+
+.header__logo {
+  font-family: "Steppe";
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.header__logo__word {
+  display: block;
+
+  line-height: 20px;
+  color: #000;
+}
+
+.header__logo--yellow {
+  font-size: 24px;
+  color: #FFC500;
+}
+
+.header__navigation {
+  display: flex;
+}
+
+.header__navigation__list {
+  display: flex;
+  justify-content: space-between;
+
+  width: 530px;
+}
+
+.header__navigation__item {
+  font-family: "Steppe";
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.request-popup {
+  position: fixed;
+  z-index: 5;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+  .main-footer {
+    padding: 85px 0;
+
+    background-color: #2B2B2B;
+  }
+
+  .main-footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 1024px;
+    padding: 0 60px;
+    margin: 0 auto;
+  }
+
+  .footer__caption {
+    margin-bottom: 15px;
+
+    font-family: "Steppe";
+    font-size: 18px;
+    font-weight: 800;
+    color: #fff;
+  }
+
+  .footer__text {
+    position: relative;
+
+    font-family: "Steppe";
+    font-size: 13px;
+    color: #fff;
+  }
+
+  .footer__text::after {
+    content: "";
+    position: absolute;
+    top: 45px;
+    left: 0;
+
+    width: 66px;
+    height: 4px;
+
+    background-color: #FFC500;
+  }
+
+  .footer__text__underline {
+    text-decoration: underline;
+  }
+
+  .footer__contacts__table {
+    display: grid;
+    grid-template-columns: 136px 130px;
+    grid-column-gap: 100px;
+    grid-template-rows: 17px 17px 17px;
+    grid-row-gap: 5px;
+    margin-top: 60px;
+
+    color: #fff;
+  }
+
+  .footer__contacts__item__bold {
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  .footer__contacts__item__light {
+    font-size: 13px;
+  }
+
+  .main-footer__site-maker {
+    width: 163px;
+    height: 163px;
+    padding-top: 52px;
+
+    border-radius: 50%;
+    box-sizing: border-box;
+
+    font-size: 23px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+
+    background-color: #1D1D1D;
+  }
+
+  .site-maker__world {
+    display: block;
+    color: red;
+  }

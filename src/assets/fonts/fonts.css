@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Lighthaus";
+  src: url(Lighthaus.otf);
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: "Bressay Display Trial";
+  src: url(./Bressay/BressayDisplay_Trial_Rg.ttf);
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: 'Steppe';
+    src: url(./Steppe/Steppe.woff2) format('woff2'), /* Modern Browsers */
+         url(./Steppe/Steppe.otf) format('opentype'); /* Safari, Android, iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "The Artist Script";
+  src: url(TheArtistScript.otf);
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap
+}
