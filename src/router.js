@@ -19,7 +19,7 @@ export default new VueRouter({
     }
   ],
   mode: 'history',
-  base: '/reasonov.github.io/',
+  base: '/',
   scrollBehavior() {
     return { x: 0, y: 0, behavior: 'smooth'}
   }
